@@ -6,6 +6,7 @@
 
 **Student Name / Full Name:** Rida Fatima  
 **Roll Number:** __________________  
+**Section / Batch:** __________________  
 **Project Title:** Personal Portfolio Website  
 **Project Type:** Multi-page static website  
 **Deployment Platform:** GitHub Pages  
