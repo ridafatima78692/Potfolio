@@ -3,51 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education | My Portfolio</title>
+    <meta name="description" content="Education details for Rida Fatima, including software engineering studies and academic background.">
+    <title>Education | Rida Fatima Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./ABOUT.html">About</a>
-            <a class="active" href="./EDUCATION.html">Education</a>
-            <a href="./EXPERIENCE.html">Experience</a>
-            <a href="./HOBBIES.html">Hobbies</a>
-            <a href="./CONTACT.html">Contact</a>
-        </nav>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div>
+                <p class="eyebrow">HTML and CSS Portfolio</p>
+                <h1>Rida Fatima</h1>
+            </div>
+            <nav aria-label="Main navigation">
+                <a href="./index.html">Home</a>
+                <a href="./ABOUT.html">About</a>
+                <a class="active" href="./EDUCATION.html" aria-current="page">Education</a>
+                <a href="./EXPERIENCE.html">Experience</a>
+                <a href="./HOBBIES.html">Hobbies</a>
+                <a href="./CONTACT.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="education">
+    <main id="main-content">
+        <section class="page-intro">
+            <p class="eyebrow">Academic Background</p>
             <h2>Education</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Degree</th>
-                        <th>Institute</th>
-                        <th>Year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>BS Software Engineering</td>
-                        <td>Muhammad Ali Jinnah University</td>
-                        <td>2026</td>
-                    </tr>
-                    <tr>
-                        <td>Intermediate</td>
-                        <td>APS College</td>
-                        <td>2025</td>
-                    </tr>
-                </tbody>
-            </table>
+            <p>My education supports my interest in technology, software engineering, communication, and practical problem solving.</p>
+        </section>
+
+        <section class="panel table-panel">
+            <div class="table-wrapper">
+                <table>
+                    <caption>Academic qualifications</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Program</th>
+                            <th scope="col">Institute</th>
+                            <th scope="col">Year</th>
+                            <th scope="col">Focus</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BS Software Engineering</td>
+                            <td>Muhammad Ali Jinnah University</td>
+                            <td>2026</td>
+                            <td>Programming, web development, and software fundamentals</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediate</td>
+                            <td>APS College</td>
+                            <td>2025</td>
+                            <td>Academic preparation and foundational learning</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 My Portfolio</p>
+        <p>&copy; 2026 Rida Fatima. All rights reserved.</p>
     </footer>
 </body>
 </html>

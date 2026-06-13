@@ -3,47 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | My Portfolio</title>
+    <meta name="description" content="Portfolio website for Rida Fatima, a beginner web developer learning HTML, CSS, responsive design, and user-friendly web layouts.">
+    <title>Rida Fatima | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <a class="active" href="./index.html">Home</a>
-            <a href="./ABOUT.html">About</a>
-            <a href="./EDUCATION.html">Education</a>
-            <a href="./EXPERIENCE.html">Experience</a>
-            <a href="./HOBBIES.html">Hobbies</a>
-            <a href="./CONTACT.html">Contact</a>
-        </nav>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div>
+                <p class="eyebrow">HTML and CSS Portfolio</p>
+                <h1>Rida Fatima</h1>
+            </div>
+            <nav aria-label="Main navigation">
+                <a class="active" href="./index.html" aria-current="page">Home</a>
+                <a href="./ABOUT.html">About</a>
+                <a href="./EDUCATION.html">Education</a>
+                <a href="./EXPERIENCE.html">Experience</a>
+                <a href="./HOBBIES.html">Hobbies</a>
+                <a href="./CONTACT.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <section class="hero">
-            <h2>Welcome to My Portfolio</h2>
-            <p>I am a beginner HTML and CSS developer building clean, simple, and user-friendly web pages.</p>
+            <div class="hero-content">
+                <p class="eyebrow">Beginner Web Developer</p>
+                <h2>Building clean, responsive, and easy-to-use web pages.</h2>
+                <p>I am developing my skills in HTML, CSS, layout design, and web publishing. This portfolio presents my education, experience, interests, and contact information in a complete multi-page website.</p>
+                <div class="hero-actions">
+                    <a class="button" href="./ABOUT.html">View Profile</a>
+                    <a class="button secondary" href="./CONTACT.html">Contact Me</a>
+                </div>
+            </div>
+            <div class="profile-panel" aria-label="Profile summary">
+                <div class="profile-placeholder">RF</div>
+                <h3>Portfolio Highlights</h3>
+                <ul>
+                    <li>Semantic HTML page structure</li>
+                    <li>Responsive CSS styling</li>
+                    <li>Working contact form</li>
+                    <li>Published with GitHub Pages</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="video-container">
-            <h2>Introduction Video</h2>
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Introduction video" allowfullscreen></iframe>
-            <p>This space can be updated with a personal introduction video when it is ready.</p>
+        <section class="section-grid" aria-label="Portfolio overview">
+            <article class="info-card">
+                <h3>Learning Focus</h3>
+                <p>My current focus is writing organized HTML, styling pages with CSS, and improving layouts so they work well on mobile and desktop screens.</p>
+            </article>
+            <article class="info-card">
+                <h3>Professional Goal</h3>
+                <p>I want to keep improving as a web developer by building practical websites that are clear, accessible, and useful for real visitors.</p>
+            </article>
+            <article class="info-card">
+                <h3>Assignment Coverage</h3>
+                <p>This website includes separate pages for home, about, education, experience, hobbies, and contact, with consistent navigation and styling.</p>
+            </article>
         </section>
-
-        <article>
-            <h2>My Web Development Goal</h2>
-            <p>I am learning how to create classical, minimal, and responsive websites using HTML and CSS. My focus is on clear structure, readable content, and simple layouts that are easy for visitors to use.</p>
-        </article>
-
-        <div class="content-box">
-            <h3>Why Work With Me?</h3>
-            <p>I take each project seriously and work step by step to improve design, formatting, and user experience. I enjoy learning new skills and turning ideas into practical web pages.</p>
-        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 My Portfolio</p>
+        <p>&copy; 2026 Rida Fatima. All rights reserved.</p>
     </footer>
 </body>
 </html>
